@@ -1,0 +1,20 @@
+{
+  "name": "advent-of-code-2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "day-1": "node ./day-1/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidastrom/advent-of-code-2021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidastrom/advent-of-code-2021/issues"
+  },
+  "homepage": "https://github.com/davidastrom/advent-of-code-2021#readme",
+  "type": "module"
+}
