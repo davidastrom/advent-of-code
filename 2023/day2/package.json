@@ -1,0 +1,26 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write .",
+    "ts:build": "tsc",
+    "ts:watch": "tsc -w",
+    "watch": "nodemon dist/index.js",
+    "dev": "concurrently \"npm:ts:watch\" \"npm:watch\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Åström",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.1",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.1"
+  }
+}

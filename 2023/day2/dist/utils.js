@@ -10,5 +10,5 @@ export const readFile = async (fileName = "./files/input.txt") => {
     }
     return lines;
 };
-export const readTestFile = async () => await readFile("./files/test.txt");
+export const readTestFile = async (part) => await readFile(`./files/test${part}.txt`);
 //# sourceMappingURL=utils.js.map
